@@ -14,8 +14,4 @@ vim.keymap.set("n", "<leader>gr", ":Gread<cr>", { desc = "read from the git tree
 vim.keymap.set("n", "<leader>ge", ":Gedit<cr>", { desc = "edit from the git tree", silent = true })
 vim.keymap.set("n", "<leader>gb", ":Git blame<cr>", { desc = "git blame", silent = true })
 vim.keymap.set("n", "<leader>gd", ":Gdiff<cr>", { desc = "toggle git diff", silent = true })
-vim.keymap.set("n", "<leader>ghs", ":Gitsigns stage_hunk", { desc = "stage git hunk", silent = true })
-vim.keymap.set("n", "<leader>ghu", ":Gitsigns undo_stage_hunk", { desc = "unstage git hunk", silent = true })
-vim.keymap.set("n", "<leader>ghr", ":Gitsigns reset_hunk", { desc = "reset git hunk", silent = true })
-vim.keymap.set("n", "<leader>ghp", ":Gitsigns preview_hunk", { desc = "preview git hunk", silent = true })
 vim.keymap.set("n", "<leader>ghb", git_blame_line, { desc = "blame current git hunk", silent = true })

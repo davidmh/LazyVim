@@ -6,7 +6,7 @@ return {
     dir = "$REMIX_HOME/.nvim",
     dependencies = {
       "akinsho/toggleterm.nvim",
-      "tpope/vim-fugitive",
+      "tpope/vim-projectionist",
     },
     config = function()
       require("remix").setup({})
