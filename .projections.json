@@ -1,0 +1,9 @@
+{
+  "lua/plugins/*.lua": {
+    "type": "plugin",
+    "template": [
+      "return {",
+      "}"
+    ]
+  }
+}
